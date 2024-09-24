@@ -1,3 +1,15 @@
+#navbarNav{
+    ul{
+        li{
+            transition: .4s;
+            &:hover a{
+                color: #adb5bd !important;
+            }
+        }
+    }
+}
+
+
 main {
     & table {
         & td {
