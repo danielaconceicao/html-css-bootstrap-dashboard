@@ -21,25 +21,25 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-dark py-4 px-2">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="assets/img/duck.png" alt="" width="100"></a>
-                <button class="navbar-toggler border-light-subtle text-white" type="button" data-bs-toggle="collapse"
+                <a class="navbar-brand" href="#"><img src="assets/img/duck.png" alt="" width="80"></a>
+                <button class="navbar-toggler border-light-subtle" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon h4"></span>
+                    <span class="material-symbols-outlined text-dark-emphasis">menu</span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav fw-bold h3">
+                    <ul class="navbar-nav fw-bold h5">
                         <li class="nav-item">
                             <a class="nav-link active text-light" aria-current="page" href="#">Catalogo Libri</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light-emphasis" href="#">Anagrafica Utenti</a>
+                            <a class="nav-link text-white-50" href="#">Anagrafica Utenti</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light-emphasis" href="#">Storico Prestiti</a>
+                            <a class="nav-link text-white-50" href="#">Storico Prestiti</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light-emphasis">Help</a>
+                            <a class="nav-link text-white-50" href="#">Help</a>
                         </li>
                     </ul>
                 </div>
@@ -54,16 +54,15 @@
                         <h1 class="h2">Catalogo Libri</h1>
                     </div>
                     <div class="col-6 text-end">
-                        <button type="button" class="btn btn-primary p-3">Aggiungi Libro</button>
+                        <button type="button" class="btn btn-primary p-2 ">Aggiungi Libro</button>
                     </div>
                 </div>
             </div>
             <table class="table table-striped">
                 <thead>
                     <tr>
-
                         <th scope="col">Titolo</th>
-                        <th scope="col" class="d-none">Data prestito</th>
+                        <th scope="col" class="d-none d-md-block">Data prestito</th>
                         <th scope="col">Stato</th>
                         <th scope="col">Azioni</th>
                     </tr>
@@ -71,157 +70,233 @@
                 <tbody>
                     <tr>
                         <td>I pilastri della terra</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-success p-1">Disponibile</button></td>
+                        <td class="d-none d-md-block" height="60">-</td>
+                        <td><button type="button" class="btn btn-success p-1 button">Disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
+
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>I promessi sposi</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-success p-1">Disponibile</button></td>
+                        <td class="d-none d-md-block" height="60">-</td>
+                        <td><button type="button" class="btn btn-success p-1 button">Disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>Il signore degli anelli</td>
-                        <td class="d-none">18/10/2023</td>
-                        <td><button type="button" class="btn btn-warning p-1">In prestito</button></td>
+                        <td class="d-none d-md-block" height="60">18/10/2023</td>
+                        <td><button type="button" class="btn btn-warning p-1 text-white button">In prestito</button>
+                        </td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>Harry Potter e la pietra filosofale</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-success p-1">Disponibile</button></td>
+                        <td class="d-none d-md-block" height="60">-</td>
+                        <td><button type="button" class="btn btn-success p-1 button">Disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>Il codice Da Vinci</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-danger p-1">Non disponibile</button></td>
+                        <td class="d-none d-md-block" height="80">-</td>
+                        <td><button type="button" class="btn btn-danger p-1 button">Non disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>Shining</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-success p-1">Disponibile</button></td>
+                        <td class="d-none d-md-block" height="60">-</td>
+                        <td><button type="button" class="btn btn-success p-1 button">Disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>La divina commedia</td>
-                        <td class="d-none">21/09/2023</td>
-                        <td><button type="button" class="btn btn-warning p-1">In prestito</button></td>
+                        <td class="d-none d-md-block" height="60">21/09/2023</td>
+                        <td><button type="button" class="btn btn-warning p-1 text-white button">In prestito</button>
+                        </td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>Il trono di spade</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-success p-1">Disponibile</button></td>
+                        <td class="d-none d-md-block" height="60">-</td>
+                        <td><button type="button" class="btn btn-success p-1 button">Disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>Il mondo di Sofia</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-danger p-1">Non disponibile</button></td>
+                        <td class="d-none d-md-block" height="60">-</td>
+                        <td><button type="button" class="btn btn-danger p-1 button">Non disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>La cronache di Narnia: il leone, la strega e l'armadio</td>
-                        <td class="d-none">25/07/2023</td>
-                        <td><button type="button" class="btn btn-warning p-1">In prestito</button></td>
+                        <td class="d-none d-md-block" height="60">25/07/2023</td>
+                        <td><button type="button" class="btn btn-warning p-1 text-white button">In prestito</button>
+                        </td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>Il piccolo principe</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-success p-1">Disponibile</button></td>
+                        <td class="d-none d-md-block" height="60">-</td>
+                        <td><button type="button" class="btn btn-success p-1 button">Disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>La storia infinita</td>
-                        <td class="d-none">-</td>
-                        <td><button type="button" class="btn btn-success p-1">Disponibile</button></td>
+                        <td class="d-none d-md-block" height="60">-</td>
+                        <td><button type="button" class="btn btn-success p-1 button">Disponibile</button></td>
                         <td>
                             <div class="d-flex">
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2">edit</span>
-                                <span
-                                    class="material-symbols-outlined border rounded p-1  border-secondary-subtle">delete</span>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle me-2 text-dark-emphasis">edit
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        class="material-symbols-outlined border rounded p-1  border-secondary-subtle text-dark-emphasis">delete
+                                    </span>
+                                </a>
                             </div>
                         </td>
                     </tr>

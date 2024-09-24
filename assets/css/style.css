@@ -1,0 +1,11 @@
+main {
+    & table {
+        & td {
+            font-size: .86rem;
+
+            .button {
+                font-size: .7rem;
+            }
+        }
+    }
+}
