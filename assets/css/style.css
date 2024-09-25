@@ -1,8 +1,9 @@
-#navbarNav{
-    ul{
-        li{
+#navbarNav {
+    ul {
+        li {
             transition: .4s;
-            &:hover a{
+
+            &:hover a {
                 color: #adb5bd !important;
             }
         }
@@ -19,5 +20,17 @@ main {
                 font-size: .7rem;
             }
         }
+    }
+
+    & input {
+        &::placeholder{
+            color: #adb5bd;
+            font-weight: 500;
+            font-size: .8rem;
+        }
+    }
+
+    & select{
+        font-size: .8rem;
     }
 }
