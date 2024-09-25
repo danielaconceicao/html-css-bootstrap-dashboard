@@ -26,11 +26,13 @@ main {
         &::placeholder{
             color: #adb5bd;
             font-weight: 500;
-            font-size: .8rem;
         }
     }
 
-    & select{
-        font-size: .8rem;
+    & .textarea-color{
+        textarea{
+            color: #adb5bd;
+            font-weight: 500;
+        }
     }
 }
