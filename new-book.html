@@ -10,18 +10,19 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<body>
+<body class="vh-100">
     <header>
         <nav class="navbar navbar-expand-lg  bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="assets/img/duck.png" alt="" width="80"></a>
-                <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <i class="bi bi-list text-dark-emphasis"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -44,7 +45,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="h-100">
         <div class="container">
             <header class="py-3">
                 <h1 class="fw-semibold">Nuovo Libro</h1>
@@ -66,11 +67,11 @@
 
                     <div class="col-12">
                         <label for="input-group-text" class="form-label fw-medium">Titolo</label>
-                        <input type="text" class="form-control" id="text"
-                            placeholder="Inserisci il titolo del libro" required>
-                            <div id="passwordHelpBlock" class="form-text">
-                                Titolo versione italiana
-                              </div>
+                        <input type="text" class="form-control" id="text" placeholder="Inserisci il titolo del libro"
+                            required>
+                        <div id="passwordHelpBlock" class="form-text">
+                            Titolo versione italiana
+                        </div>
                     </div>
 
                     <div class="col-sm-12 col-md-4">
@@ -88,14 +89,16 @@
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <label for="input-group-text" class="form-label fw-medium">ISBN#</label>
-                        <input type="text" class="form-control" id="input-text" placeholder="Inserisci il codice ISBN#" required>
+                        <input type="text" class="form-control" id="input-text" placeholder="Inserisci il codice ISBN#"
+                            required>
                     </div>
 
                     <hr class="mt-4 mb-1">
 
                     <div class="textarea-color">
                         <label for="exampleFormControlTextarea1" class="form-label fw-medium">Note</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Inserisci eventuali note sul libro"></textarea>
                     </div>
 
                     <div class="col-12">
@@ -114,7 +117,10 @@
         </div>
     </main>
 
-
+    <footer class="bg-dark-subtle mt-4 text-center">
+        <p class="mb-1">Created by Daniela Conceição</p>
+        <span><i class="bi bi-c-circle pe-2"></i>2024</span>
+    </footer>
 
 
 
