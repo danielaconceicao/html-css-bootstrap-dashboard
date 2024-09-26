@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>New client</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/duck.png" alt="" width="80"></a>
+                <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-list text-dark-emphasis"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white-50" aria-current="page" href="index.html">Catalogo
+                                Libri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-light" href="#">Anagrafica Utenti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white-50" href="#">Storico Prestiti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="new-book.html">New Book</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <header class="py-3">
+                <h1 class="fw-semibold">Nuovo Cliente</h1>
+            </header>
+
+            <div class="row">
+                <div class="col">
+                    <form class="row g-3">
+                        <div class="col-6">
+                          <label for="text" class="form-label fw-medium">Nome</label>
+                          <input type="text" class="form-control" id="text" placeholder="Tuo nome" required>
+                        </div>
+
+                        <div class="col-6">
+                          <label for="cognome" class="form-label fw-medium">Cognome
+                          </label>
+                          <input type="text" class="form-control" id="cognome" placeholder="tuo cognome" required>
+                        </div>
+
+                        <div class="col-6">
+                          <label for="date" class="form-label fw-medium">Data di nascita
+                          </label>
+                          <input type="text" class="form-control" id="date" placeholder="gg/mm/aaaa" required>
+                        </div>
+
+
+                        <div class="col-6">
+                          <label for="text" class="form-label fw-medium">Codice Fiscale</label>
+                          <input type="text" class="form-control" id="text" placeholder="36393470251">
+                        </div>
+
+                        <div class="col-6">
+                          <label for="email" class="form-label fw-medium">Indirizzo e-mail</label>
+                          <input type="email" class="form-control" id="inputAddress2" placeholder="email@verdisrl.it" required>
+                        </div>
+
+                        <div class="col-6">
+                          <label for="email" class="form-label fw-medium">Indirizzo PEC</label>
+                          <input type="email" class="form-control" id="inputAddress2" placeholder="pec@pec.it">
+                        </div>
+
+                        <div class="col-12">
+                          <label for="number" class="form-label fw-medium">Telefono</label>
+                          <input type="number" class="form-control" id="inputAddress2" placeholder="035123456" required>
+                        </div>
+
+                        <div class="col-md-12">
+                          <label for="inputState" class="form-label fw-medium">Paese</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Italia</option>
+                            <option>Albania</option>
+                            <option>Andorra</option>
+                            <option>Austria</option>
+                            <option>Belgio</option>
+                            <option>Bulgaria</option>
+                            <option>Cipro</option>
+                            <option>Città del Vaticano</option>
+                            <option>Croazia</option>
+                            <option>Danimarca</option>
+                            <option>Estonia</option>
+                            <option>Finlandia</option>
+                            <option>Francia</option>
+                            <option>Georgia</option>
+                            <option>Germania</option>
+                            <option>Irlanda</option>
+                            <option>Islandia</option>
+                            <option>Italia</option>
+                            <option>Malta</option>
+                            <option>Montenegro</option>
+                          </select>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                          <label for="inputCity" class="form-label fw-medium">Indirizzo</label>
+                          <input type="text" class="form-control" id="inputCity" placeholder="Via della Repubblica">
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                          <label for="text" class="form-label fw-medium">Comune</label>
+                          <input type="text" class="form-control" id="text" placeholder="Milano">
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                          <label for="number" class="form-label fw-medium">Cap</label>
+                          <input type="number" class="form-control" id="inputAddress" placeholder="20121">
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                          <label for="inputAddress" class="form-label fw-medium">Provincia</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="MI">
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                          <label for="inputAddress" class="form-label fw-medium">Numero civico</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="MI">
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label fw-medium">Note indirizzo</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <div class="col-12 mb-3">
+                          <button type="submit" class="btn btn-primary">Salva</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
